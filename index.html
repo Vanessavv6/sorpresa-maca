@@ -1,0 +1,671 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Nuestra historia ❤️</title>
+
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+
+    <main class="inicio">
+
+        <div class="contenido-inicio">
+
+            <p class="pequeno">Para ti ❤️</p>
+
+            <h1>
+                Tengo algo que contarte...
+            </h1>
+
+            <p class="mensaje">
+                Han pasado 9 años desde que comenzó nuestra historia,
+                y hoy quiero que volvamos a recorrerla juntas.
+            </p>
+
+            <button id="botonComenzar">
+                Comenzar nuestra historia ❤️
+            </button>
+
+        </div>
+
+    </main>
+    <<section class="historia" id="historia">
+
+    <div class="capitulo">
+
+        <p class="fecha">2017</p>
+
+        <h2>Y así comenzó todo... ❤️</h2>
+
+        <p class="texto-historia">
+            Éramos nosotras dos, comenzando una historia
+            sin imaginar todo lo que la vida tenía preparado para nosotras.
+        </p>
+
+        <div class="foto-principal">
+            <img src="fotos/inicio_01.jpg" alt="Nuestros comienzos">
+        </div>
+
+        <p class="frase">
+            Y poco a poco comenzamos a llenar nuestros días de recuerdos...
+        </p>
+
+        <div class="polaroids">
+
+            <div class="polaroid izquierda">
+                <img src="fotos/inicio_02.jpg" alt="Uno de nuestros primeros recuerdos">
+                <p>Nosotras ❤️</p>
+            </div>
+
+            <div class="polaroid derecha">
+                <img src="fotos/inicio_03.jpg" alt="Otro de nuestros primeros recuerdos">
+                <p>El comienzo de todo</p>
+            </div>
+
+        </div>
+
+        <p class="continuara">
+            Y esto recién comenzaba...
+        </p>
+
+        <button class="boton-continuar" id="continuarHistoria">
+            Seguir recordando ❤️
+        </button>
+
+    </div>
+
+</section>
+<section class="recuerdos" id="recuerdos">
+
+    <div class="capitulo-recuerdos">
+
+        <p class="fecha">Nuestros años juntas</p>
+
+        <h2>Todo lo que vivimos ❤️</h2>
+
+        <p class="texto-historia">
+            Entre viajes, locuras, días simples y momentos inolvidables,
+            fuimos construyendo una vida juntas.
+        </p>
+
+        <div class="carrusel">
+
+            <img src="fotos/recuerdo_01.jpg" class="foto-recuerdo activa" alt="Recuerdo 1">
+            <img src="fotos/recuerdo_02.jpg" class="foto-recuerdo" alt="Recuerdo 2">
+            <img src="fotos/recuerdo_03.jpg" class="foto-recuerdo" alt="Recuerdo 3">
+            <img src="fotos/recuerdo_04.jpg" class="foto-recuerdo" alt="Recuerdo 4">
+            <img src="fotos/recuerdo_05.jpg" class="foto-recuerdo" alt="Recuerdo 5">
+            <img src="fotos/recuerdo_06.jpg" class="foto-recuerdo" alt="Recuerdo 6">
+
+        </div>
+
+        <div class="controles-carrusel">
+            <button id="anteriorFoto">←</button>
+
+            <span id="contadorFoto">
+                1 / 6
+            </span>
+
+            <button id="siguienteFoto">→</button>
+        </div>
+
+        <p class="frase-recuerdos">
+            Y aunque cambiaron los lugares, los años y nuestras vidas...
+            siempre seguimos siendo nosotras.
+        </p>
+
+        <button id="irJuego">
+            Tengo un desafío para ti ❤️
+        </button>
+
+    </div>
+
+</section>
+<section class="juego" id="juego">
+
+    <div class="contenido-juego">
+
+        <p class="fecha">Un pequeño desafío ❤️</p>
+
+        <h2>¿Todavía puedes atrapar mi corazón?</h2>
+
+        <p class="instrucciones-juego">
+            Durante estos 9 años te has ganado mi corazón muchas veces...
+            ahora tendrás que demostrar que todavía puedes atraparlo 😏
+        </p>
+
+        <div class="marcador">
+            ❤️ <span id="contadorCorazones">0</span> / 20
+        </div>
+
+        <button id="comenzarJuego">
+            Comenzar juego ❤️
+        </button>
+
+        <div class="zona-juego" id="zonaJuego">
+
+            <button class="corazon-juego" id="corazonJuego" aria-label="Atrapar corazón">
+                ❤️
+            </button>
+
+            <p class="esperando-juego" id="esperandoJuego">
+                Presiona “Comenzar juego”
+            </p>
+
+        </div>
+
+        <div class="mensaje-ganador" id="mensajeGanador">
+
+            <div class="corazon-grande">❤️</div>
+
+            <h3>Sabía que lo lograrías.</h3>
+
+            <p>
+                Después de 9 años,
+                mi corazón sigue siendo tuyo.
+            </p>
+
+            <button id="continuarFamilia">
+                Todavía falta lo mejor... ❤️
+            </button>
+
+        </div>
+
+    </div>
+
+</section>
+    <section class="familia-transicion" id="familiaTransicion">
+
+    <div class="contenido-familia">
+
+        <div class="paso-familia activo" id="paso1">
+            <p class="fecha">Nuestra historia</p>
+
+            <h2>Durante mucho tiempo fuimos nosotras dos... ❤️</h2>
+
+            <img src="fotos/antes_familia.jpg"
+                 class="foto-familia"
+                 alt="Nosotras antes de ser mamás">
+
+            <button id="pasarMaiki">
+                Seguir ❤️
+            </button>
+        </div>
+
+
+        <div class="paso-familia" id="paso2">
+
+            <h2>Bueno... de tres 😂🐶</h2>
+
+            <img src="fotos/maiki_familia.jpg"
+                 class="foto-familia"
+                 alt="Nuestra familia con Maiki">
+
+            <p class="texto-familia">
+                Sin darnos cuenta, ya estábamos construyendo nuestro hogar.
+            </p>
+
+            <button id="pasarNinas">
+                Continuar ❤️
+            </button>
+        </div>
+
+
+        <div class="paso-familia" id="paso3">
+
+            <p class="texto-especial">
+                Pero la vida todavía tenía preparado para nosotras
+                el capítulo más importante de nuestra historia...
+            </p>
+
+            <button id="descubrirFamilia">
+                Descubrirlo ❤️
+            </button>
+
+        </div>
+
+
+        <div class="paso-familia" id="paso4">
+
+            <p class="fecha">Y entonces...</p>
+
+            <h2>llegaron ellas ❤️</h2>
+
+            <img src="fotos/llegaron_ellas.jpg"
+                 class="foto-familia"
+                 alt="La llegada de nuestras niñas">
+
+            <p class="texto-familia">
+                Nuestra historia dejó de ser solamente una historia de amor.
+                Se convirtió en una familia.
+            </p>
+
+            <button id="verFamiliaActual">
+                Nuestra familia ❤️
+            </button>
+
+        </div>
+
+
+        <div class="paso-familia" id="paso5">
+
+            <img src="fotos/primeros_pasos.jpg"
+                 class="foto-familia grande"
+                 alt="Nuestros primeros pasos como familia">
+
+            <p class="texto-especial">
+                Y comenzamos una nueva aventura...
+                ahora caminando de a cuatro.
+            </p>
+
+            <img src="fotos/familia_cuatro.jpg"
+                 class="foto-familia grande"
+                 alt="Nuestra familia">
+
+            <p class="frase-final-familia">
+                Lo que un día soñamos,
+                hoy es nuestra vida. ❤️
+            </p>
+
+            <button id="continuarActualidad">
+                Y todavía queda más... ❤️
+            </button>
+
+        </div>
+
+    </div>
+
+</section>
+<section class="actualidad" id="actualidad">
+
+    <div class="contenido-actualidad">
+
+        <p class="fecha">Nuestra vida hoy</p>
+
+        <h2>Y de pronto, nuestros días se empezaron a ver así... ❤️</h2>
+
+        <p class="texto-historia">
+            Más ruido, más risas, más aventuras,
+            más cansancio... y muchísimo más amor.
+        </p>
+
+        <div class="mosaico-actual">
+
+            <img src="fotos/actual_01.jpg" alt="Nuestra vida actual">
+            <img src="fotos/actual_02.jpg" alt="Nuestra familia">
+            <img src="fotos/actual_03.jpg" alt="Un recuerdo en familia">
+            <img src="fotos/actual_04.jpg" alt="Nuestra vida juntas">
+
+        </div>
+
+        <p class="frase-actual">
+            Todo cambió...
+            pero hay algo que no cambió:
+            sigo queriendo vivir cada etapa contigo.
+        </p>
+
+        <button id="verVideo">
+            Hay un recuerdo más... 🎬❤️
+        </button>
+
+    </div>
+
+</section>
+
+
+<section class="video-especial" id="videoEspecial">
+
+    <div class="contenido-video">
+
+        <p class="fecha">Uno de tantos recuerdos</p>
+
+        <h2>Una aventura más contigo 🌊❤️</h2>
+
+        <p class="texto-historia">
+            Porque si algo hemos hecho durante estos años,
+            ha sido llenar nuestra historia de momentos que vale la pena recordar.
+        </p>
+
+        <video controls playsinline class="video-recuerdo">
+            <source src="videos/bajo_el_mar.mp4" type="video/mp4">
+
+            Tu navegador no puede reproducir este video.
+        </video>
+
+        <button id="irCarta">
+            Ahora sí... quiero decirte algo ❤️
+        </button>
+
+    </div>
+
+</section>
+<section class="cierre" id="cierre">
+
+    <div class="contenido-cierre">
+
+        <!-- PRIMERA PANTALLA -->
+        <div class="paso-cierre activo" id="cierrePaso1">
+
+            <p class="fecha">9 años después...</p>
+
+            <h2>Han cambiado muchas cosas.</h2>
+
+            <div class="frases-cierre">
+                <p>Hemos cambiado.</p>
+                <p>Nuestra vida cambió.</p>
+                <p>Nuestros sueños cambiaron.</p>
+                <p>Nuestra familia creció. ❤️</p>
+            </div>
+
+            <button id="seguirCierre">
+                Pero hay algo que no cambió...
+            </button>
+
+        </div>
+
+
+        <!-- SEGUNDA PANTALLA -->
+        <div class="paso-cierre" id="cierrePaso2">
+
+            <div class="corazon-grande">❤️</div>
+
+            <p class="texto-especial-cierre">
+                Después de todo lo que hemos vivido...
+            </p>
+
+            <h2>Te sigo eligiendo a ti.</h2>
+
+            <p class="subtexto-cierre">
+                Y hay algo que quiero decirte.
+            </p>
+
+            <button id="abrirCarta">
+                Abrir mi carta 💌
+            </button>
+
+        </div>
+
+
+        <!-- CARTA -->
+        <div class="paso-cierre" id="cierreCarta">
+
+            <div class="sobre-carta">
+                💌
+            </div>
+
+            <p class="fecha">Para ti, mi amor</p>
+
+            <div class="carta">
+
+                <p>Amor:</p>
+
+                <p>
+                    Quise hacerte esta sorpresa porque para mí estos
+                    9 años han sido demasiado importantes.
+                </p>
+
+                <p>
+                    Contigo he vivido tantas primeras veces que jamás voy
+                    a olvidar. Mi primera vez subiendo a un avión fue junto
+                    a ti. También aprendí lo que era viajar las dos solitas,
+                    conocer lugares nuevos y vivir aventuras que antes ni
+                    siquiera imaginaba. Cancún, Estados Unidos, el norte,
+                    el sur de Chile… tantos lugares y tantos recuerdos que
+                    hoy forman parte de nuestra historia.
+                </p>
+
+                <p>
+                    También carreteamos, bailamos, tomamos más de la cuenta 😂,
+                    disfrutamos muchísimo con nuestros amigos y vivimos una
+                    etapa hermosa juntas.
+                </p>
+
+                <p>
+                    Y nuestra familia también fue creciendo de a poquito.
+                </p>
+
+                <p>
+                    Primero estaba Copito, que llegó antes que tú y que al
+                    comienzo hasta se puso celoso de tu llegada… para después
+                    terminar durmiendo juntito contigo. ❤️
+                </p>
+
+                <p>
+                    Después llegó Chimuelo, nuestra primera mascota escogida
+                    juntas. Toda una locura: ir hasta Alto Hospicio, a un lugar
+                    que ni conocíamos, buscarlo y simplemente llevarlo a nuestra
+                    casa. Y míralo ahora… convertido en el protector de la mami.
+                </p>
+
+                <p>
+                    Después estuvo Snoopy, tu regalón, tu chicle. Aunque por su
+                    enfermedad y porque necesitaba ser hijo único tuvimos que
+                    tomar la difícil decisión de dejarlo con otra familia,
+                    pudimos quedarnos tranquilas sabiendo que estaba con personas
+                    cercanas, querido, regaloneado y siendo el único bebé de la
+                    casa, exactamente como él quería. ❤️
+                </p>
+
+                <p>
+                    Y finalmente llegó Maiki.
+                </p>
+
+                <p>
+                    Nuestro perro cariñoso, paciente y regalón, que siempre ha
+                    tenido un amor especial por los niños. En ese momento no
+                    teníamos idea de cuánto sentido iba a tener eso algunos
+                    años después…
+                </p>
+
+                <p>
+                    Porque entonces llegó el capítulo más importante de
+                    nuestra historia.
+                </p>
+
+                <p class="destacado-carta">
+                    Nuestras hijas. ❤️
+                </p>
+
+                <p>
+                    Algo por lo que luchamos tanto y que buscamos de distintas
+                    maneras. Las dos siempre hemos creído que las cosas pasan
+                    por algo, y finalmente nuestras niñas llegaron a nuestra
+                    vida de una manera que jamás habríamos imaginado.
+                </p>
+
+                <p>
+                    Y no cambiaría nada.
+                </p>
+
+                <p>
+                    Hoy tenemos esa cotidianeidad que durante tanto tiempo
+                    quisimos. Una casa con risas, juegos, maldades, retos,
+                    enojos, cansancio, abrazos… y muchísimo amor.
+                </p>
+
+                <p>
+                    Después de haber vivido tantas cosas juntas, llegó el
+                    momento de compartir toda esa vida con ellas.
+                </p>
+
+                <p>
+                    Y poder formar esta familia contigo, nuestras hijas y Maiki
+                    ha sido una de las cosas más lindas que me ha tocado vivir.
+                </p>
+
+                <p>
+                    Te amo muchísimo.
+                </p>
+
+                <p>
+                    Eres la persona más importante de mi vida y solamente
+                    contigo me atrevería a hacer todas las locuras que hemos
+                    hecho, conocer todos los lugares que hemos conocido,
+                    empezar desde cero todas las veces que lo hemos hecho y,
+                    sobre todo, embarcarme en la aventura más grande de todas:
+                </p>
+
+                <p class="destacado-carta">
+                    formar nuestra familia.
+                </p>
+
+                <p>
+                    Después de 9 años, hemos cambiado muchísimo. Nuestra vida
+                    cambió. Nuestros sueños también cambiaron.
+                </p>
+
+                <p>
+                    Pero hay algo que no ha cambiado.
+                </p>
+
+                <p class="destacado-carta">
+                    Te sigo eligiendo a ti.
+                </p>
+
+                <p>
+                    Y si pudiera volver atrás y comenzar nuestra historia
+                    nuevamente, volvería a vivir cada viaje, cada carrete,
+                    cada locura, cada dificultad, cada perro que pasó por
+                    nuestra familia 😂, cada sueño y cada paso que nos terminó
+                    trayendo hasta aquí.
+                </p>
+
+                <p>
+                    Porque todos esos caminos me llevaron a esta vida contigo.
+                </p>
+
+                <p class="destacado-carta">
+                    Te amo y siempre será así.
+                </p>
+
+                <p>
+                    Feliz cumpleaños, mi amor. ❤️
+                </p>
+
+            </div>
+
+            <button id="ultimoBoton">
+                ¿Y sabes qué es lo mejor de nuestra historia? ❤️
+            </button>
+
+        </div>
+
+
+        <!-- FINAL -->
+        <div class="paso-cierre final-sorpresa" id="cierreFinal">
+            <div class="fondo-final-animado">
+    <span class="burbuja b1"></span>
+    <span class="burbuja b2"></span>
+    <span class="burbuja b3"></span>
+    <span class="burbuja b4"></span>
+    <span class="burbuja b5"></span>
+</div>
+
+            <div class="corazon-final">
+                ❤️
+            </div>
+
+            <p class="fecha">Lo mejor de todo...</p>
+
+            <h2>
+                Que todavía nos queda muchísimo por vivir.
+            </h2>
+
+            <p class="feliz-cumple">
+                Feliz cumpleaños, mi amor.
+            </p>
+
+            <p class="firma-final">
+                Te amo y siempre será así. ❤️
+            </p>
+
+            <p class="continua">
+                Nuestra historia continúa...
+            </p>
+
+            <div id="lluviaCorazones"></div>
+            <button id="promesaFinal">
+    Una última promesa ❤️
+</button>
+
+        </div>
+        <div class="paso-cierre promesa-final" id="promesaPantalla">
+
+    <div class="brillo-final"></div>
+
+    <p class="fecha">Una última cosa...</p>
+
+    <p class="linea-promesa">
+        No sé cómo será nuestra vida en 9 años más...
+    </p>
+
+    <p class="linea-promesa">
+        pero sí sé algo.
+    </p>
+
+    <h2>
+        Quiero seguir descubriéndola contigo. ❤️
+    </h2>
+
+    <p class="pregunta-final">
+        ¿Seguimos escribiendo nuestra historia?
+    </p>
+
+    <button id="siempreFinal">
+        Siempre ❤️
+    </button>
+
+</div>
+
+
+<div class="paso-cierre cierre-definitivo" id="cierreDefinitivo">
+
+    <div class="corazon-final">
+        ❤️
+    </div>
+
+    <h2>
+        Feliz cumpleaños, mi amor.
+    </h2>
+
+    <p class="mensaje-definitivo">
+        Gracias por estos 9 años.
+    </p>
+
+    <p class="mensaje-definitivo">
+        Vamos por todos los que nos quedan. ❤️
+    </p>
+
+    <p class="continua">
+        Nuestra historia continúa...
+    </p>
+
+</div>
+
+    </div>
+
+</section>
+<audio id="musicaHistoria" loop>
+    <source src="musica/musica_historia.mp3" type="audio/mpeg">
+</audio>
+
+<audio id="musicaHistoriaDos" loop>
+    <source src="musica/musica_historiados.mp3" type="audio/mpeg">
+</audio>
+
+<audio id="musicaCarta" loop>
+    <source src="musica/musica_carta.mp3" type="audio/mpeg">
+</audio>
+
+<button id="botonMusica" class="boton-musica">
+    🔊
+</button>
+<script src="script.js"></script>
+</body>
+
+</html>
